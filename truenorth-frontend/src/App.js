@@ -35,11 +35,6 @@ const TaskListApp = () => {
   return (
     <section className='app-container'>
       <h1>Task List</h1>
-      <select>
-        <option>20</option>
-        <option>40</option>
-        <option>60</option>
-      </select>
       <section className="task-list-container">
         {
           tasks?.map((task, index) => (
