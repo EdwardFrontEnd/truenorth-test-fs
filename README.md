@@ -30,4 +30,4 @@ docker run -it -p 3000:3000 client
 
 ```bash
 docker build -f Dockerfile -t server .
-docker run -it -p 3000:3000 serve
+docker run -it -p 8080:8080 serve
